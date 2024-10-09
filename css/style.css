@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* per tutti */
 .container {
     width: 80%;
     max-width: 1100px;
@@ -12,7 +13,17 @@
     min-height: 300px;
     border: 1px solid black;
 }
-
+.container-small {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* da cancellare */
+    min-height: 300px;
+    border: 1px solid black;
+}
+.pad-30{
+    padding-top: 30px;
+}
 .mt-10 {
     margin-top: 10px;
 }
@@ -20,8 +31,60 @@
 .mb-10 {
     margin-bottom: 10px;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/* header */
 .header{
     display: flex;
-    justify-content: space-between;
-    background-color: #daa520; 
+    justify-content: space-between; 
+    min-height: 50px;
+    align-items: center;
 }
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.header-sec{
+    display: flex;
+    gap: 30px;
+}
+.header-b{
+    background-color: #0061fe;
+    padding: 0.4em 0.8em;
+    display: inline-block;
+}
+/* hero */
+.col-60 {
+
+    width: 60%;
+}
+
+.col-40 {
+
+    width: 40%;
+}
+.bk-hero{
+    background-color: #b4d0e6;
+    padding-top: 30px;
+}
+/* 3 colonne */
+.bk-3-col{
+    background-color: white;
+    padding-top: 30px;
+}
+.col-3{
+    width: calc((100% - 20) / 3);
+    background-color: grey;
+}
+
+/* team */
+
