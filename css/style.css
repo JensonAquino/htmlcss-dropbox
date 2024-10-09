@@ -21,6 +21,11 @@
     min-height: 300px;
     border: 1px solid black;
 }
+/* da cancellare */
+.color{
+    background-color: grey;
+}
+/* /da cancellare */
 .pad-30{
     padding-top: 30px;
 }
@@ -40,6 +45,9 @@ a{
 }
 img{
     max-width: 100%;
+}
+.center{
+    text-align: center;
 }
 /* header */
 .header{
