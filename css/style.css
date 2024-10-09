@@ -95,4 +95,23 @@ img{
 }
 
 /* team */
+/* partner */
+.partner{
+    width: 400px;
+    float: left;
+}
+/* 6-col */
+.row-6-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.col-6{
+    width: calc(95% /3);
+    /* da cnac */
+    border: 2px solid blue;
+    min-height: 200px;
+}
 
