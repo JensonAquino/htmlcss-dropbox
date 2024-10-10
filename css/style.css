@@ -15,7 +15,7 @@
 }
 .container-small {
     width: 75%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     /* da cancellare */
     min-height: 100px;
@@ -39,10 +39,7 @@
 ul{
     list-style: none;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
+
 img{
     max-width: 100%;
 }
@@ -77,6 +74,11 @@ img{
     padding: 0.4em 0.8em;
     display: inline-block;
     color: white;
+    
+}
+.b-style{
+    text-decoration: none;
+    color: white
 }
 /* hero */
 h1{
@@ -111,6 +113,7 @@ h1{
 }
 .point-1{
     position: relative;
+    margin-left: 10px;
 }
 .point-1::before{
     content: '' ;
@@ -125,6 +128,7 @@ border-radius: 50%;
 }
 .point-2{
     position: relative;
+    margin-left: 10px;
    
 }
 .point-2::before{
@@ -162,6 +166,7 @@ border-radius: 50%;
 /* team */
 .list{
     margin: 20px;
+    
 }
 .list-item{
     margin-bottom: 20px;
@@ -172,11 +177,32 @@ border-radius: 50%;
 .blue-butt{
     background-color: #0061fe;
     padding: 0.4em 0.8em;
-    display: inline-block;
     color: white;
+    display: inline-block;
+}
+.butt-abs{
+    position: relative;
+    bottom: 110px;
+    left: 580px;
+
 }
 /* partner */
+.col-70 {
 
+    width: 60%;
+}
+
+.col-30 {
+
+    width: 40%;
+}
+.w-but{
+    background-color: white;
+    padding: 0.4em 0.8em;
+    display: inline-block;
+    color: grey;
+    border: 1px solid grey;
+}
 /* 6-col */
 .row-6-col{
     display: flex;
@@ -187,8 +213,9 @@ border-radius: 50%;
 
 .col-6{
     width: calc(95% /3);
-    /* da cnac */
-    border: 2px solid blue;
-    min-height: 200px;
+}
+.col-sing{
+    display: flex;
+    flex-direction: column;
 }
 
