@@ -49,12 +49,19 @@ img{
 .center{
     text-align: center;
 }
+.relative{
+    position: relative;
+}
+.txt-size{
+    font-size: 1.3rem;
+}
 /* header */
 .header{
     display: flex;
     justify-content: space-between; 
     min-height: 50px;
     align-items: center;
+
 }
 .row {
     display: flex;
@@ -69,20 +76,28 @@ img{
     background-color: #0061fe;
     padding: 0.4em 0.8em;
     display: inline-block;
+    color: white;
 }
 /* hero */
+h1{
+    font-size: 5rem;
+}
 .col-60 {
 
-    width: 60%;
+    width: 70%;
 }
 
 .col-40 {
 
-    width: 40%;
+    width: 30%;
 }
 .bk-hero{
     background-color: #b4d0e6;
     padding-top: 30px;
+}
+.hero-abs{
+    margin-top: 100px;
+    font-size: 4rem;
 }
 /* 3 colonne */
 .bk-3-col{
