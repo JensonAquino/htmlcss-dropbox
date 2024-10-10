@@ -18,7 +18,7 @@
     max-width: 800px;
     margin: 0 auto;
     /* da cancellare */
-    min-height: 300px;
+    min-height: 100px;
     border: 1px solid black;
 }
 /* da cancellare */
@@ -34,7 +34,7 @@
 }
 
 .mb-10 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 ul{
     list-style: none;
@@ -106,15 +106,77 @@ h1{
 }
 .col-3{
     width: calc((100% - 20) / 3);
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.point-1{
+    position: relative;
+}
+.point-1::before{
+    content: '' ;
+    background: white;
+height: 5px;
+width: 5px;
+position: absolute;
+right: 100%;
+bottom: 15%;
+border: 3px solid #0061fe;
+border-radius: 50%;
+}
+.point-2{
+    position: relative;
+   
+}
+.point-2::before{
+    content: '' ;
+    background: white;
+height: 5px;
+width: 5px;
+position: absolute;
+right: 100%;
+bottom: 15%;
+border: 3px solid #0061fe;
+border-radius: 50%;
+}
+.row-3-col{
+    gap: 30px;
+    
+}
+.row-container-3-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
 }
 
-/* team */
-/* partner */
-.partner{
-    width: 400px;
-    float: left;
+.container-3-col{
+    min-height: 300px;
+    border: 1px solid black;
+    
 }
+.title-3-col{
+    text-align: center;
+}
+
+
+/* team */
+.list{
+    margin: 20px;
+}
+.list-item{
+    margin-bottom: 20px;
+}
+.ent{
+    font-size: 2rem;
+}
+.blue-butt{
+    background-color: #0061fe;
+    padding: 0.4em 0.8em;
+    display: inline-block;
+    color: white;
+}
+/* partner */
+
 /* 6-col */
 .row-6-col{
     display: flex;
